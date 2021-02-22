@@ -1,0 +1,31 @@
+a {
+  color: #f2bf1c;
+  font-size: 150%;
+  text-decoration: none;
+}
+
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  background-color: #antiquewhite;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+li.nav {
+  display: inline;
+  float: right;
+  width: 200px;
+  padding: 5px;
+  margin: 5px;}
+
+li a:hover {
+  background-color: #FFF;
+  color: yellow;
+  font-size: 20px;
+}
