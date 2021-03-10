@@ -1,3 +1,35 @@
 body {
   background-color: #F3D437;
 }
+
+a {
+  color: #F8691F;
+  font-size: 150%;
+  text-decoration: none;
+}
+
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  background-color: #F3D437;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+li.nav {
+  display: inline;
+  float: left;
+  width: 200px;
+  padding: 5px;
+  margin: 5px;}
+
+li a:hover {
+  background-color: #1FF869;
+  color: green;
+  font-size: 20px;
+}
